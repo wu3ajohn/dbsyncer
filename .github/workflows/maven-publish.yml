@@ -31,5 +31,5 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v3
       with:
-        name: java-app
-        path: dbsyncer-web\target\dbsyncer-*.zip
+        name: dbsyncer-bin.zip
+        path: dbsyncer-web/target/dbsyncer-*.zip
